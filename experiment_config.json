@@ -1,0 +1,82 @@
+{
+  "random_seed": 42,
+  "max_samples": 5000,
+  "n_folds": 5,
+  "n_seeds_ab": 3,
+  "n_seeds_c": 2,
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "macro_f1",
+    "mcc"
+  ],
+  "datasets": [
+    "spambase",
+    "bank",
+    "wine",
+    "breast_cancer",
+    "digits"
+  ],
+  "algorithms": [
+    "LR",
+    "RF",
+    "XGB",
+    "SVM",
+    "MLP",
+    "GB"
+  ],
+  "dimensions": {
+    "label_noise": {
+      "levels_single": [
+        0.0,
+        0.1,
+        0.2,
+        0.35,
+        0.5
+      ],
+      "levels_pair": [
+        0.15,
+        0.35
+      ]
+    },
+    "missing": {
+      "levels_single": [
+        0.0,
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "levels_pair": [
+        0.1,
+        0.25
+      ]
+    },
+    "feature_noise": {
+      "levels_single": [
+        0.0,
+        0.1,
+        0.2,
+        0.35,
+        0.5
+      ],
+      "levels_pair": [
+        0.2,
+        0.45
+      ]
+    },
+    "imbalance": {
+      "levels_single": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "levels_pair": [
+        0.3,
+        0.6
+      ]
+    }
+  }
+}
