@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ## Paper Details
 
-This code is associated with a research paper currently under review/preparation. Please keep this repository private until the paper is published.
+This code is associated with a research paper currently under review/preparation. 
 
 ## License
 
@@ -60,4 +60,3 @@ For inquiries, please contact the repository owner.
 
 ---
 
-**Status:** Private Repository - Under Development
