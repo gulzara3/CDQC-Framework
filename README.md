@@ -1,10 +1,10 @@
 # CDQC Framework
 
-A comprehensive framework for paper-related research and implementation.
+
 
 ## Overview
 
-This repository contains the code and resources for the CDQC Framework project. The project is currently under development and is kept private until publication.
+This repository contains the code and resources for the CDQC Framework project. 
 
 ## Project Structure
 
